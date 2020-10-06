@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+#student-info {
+    flex-direction: column;
+    display: flex;
+
+}
+#data-input {
+    flex-direction: column;
+    display: flex;
+    margin: 1em;
+    padding: 0.5em;
+    border: 1px;
+    border-style: solid;
+    width: 300px;
+}
+.left-column {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-column {
+    flex-direction: column;
+    display: flex;
+}

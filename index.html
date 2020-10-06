@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jay Mayberry - Final - Web 1.0</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section id="student-info">
+            <h1>Jay Mayberry</h1>
+            <p> My favourite color is mint green and i wear nike shoes currently.</p>
+        </section>
+        <section id="data-input">
+            <h1>Font Styler</h1>
+
+            <label>
+                Font Size: <br>
+                <input id="font-size" type="number" value="18">
+            </label>
+            
+            <label>
+                Font Family: <br>
+                <select id="font-select">
+                    <option value="helvetica">Helvetica</option>
+                    <option value="arial">Arial</option>
+                    <option value="times-new-roman">Times New Roman</option>
+                    <option value="georgia">Georgia</option>
+                </select>
+            </label>
+
+            <label>
+                Font Color: <br>
+                <input id="font-color" type="color" value="#000">
+            </label>
+
+            <label>
+                Background Color: <br>
+                <input id="background-color" type="color" value="#fff">
+            </label>
+
+            <label>
+                Enter Text: <br>
+                <textarea id="enter-text" type="text"></textarea>
+            </label>
+        </section>
+        <section id="headline-display">
+            <h1 id="display">Sample Text</h1>
+        </section>
+        <section id="data-output">
+            <pre><code>.headline {
+                font-size: <span id="show-size">16</span>px;
+                font-family: <span id="show-font">Times</span>;
+                color: <span id="show-color">#000</span>;
+                background-color: <span id="show-bg-color">#fff</span>;
+            }</code></pre>
+        </section>
+    </body>
+</html>
