@@ -1,28 +1,38 @@
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
     padding: 1em;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #student-info {
     flex-direction: column;
     display: flex;
-
 }
 #data-input {
     flex-direction: column;
     display: flex;
     margin: 1em;
-    padding: 0.5em;
+    padding: 1em;
     border: 1px;
     border-style: solid;
     width: 300px;
 }
-.left-column {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-}
-.right-column {
+#left-column {
+    width: 50%;
     flex-direction: column;
     display: flex;
+}
+#right-column {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+}
+#display {
+    border: 1px;
+    border-style: solid;
+    padding: 3em;
+    width: 300px;
+    text-align: center;
 }
